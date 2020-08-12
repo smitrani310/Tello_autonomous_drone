@@ -1,21 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 # coding=utf-8
 import logging
 import socket
 import time
 import threading
 import cv2
-# from accepts import accepts
-
 from threading import Thread
-
-
-# In[7]:
 
 
 class ownTello:
@@ -287,10 +276,6 @@ class ownTello:
         
     
 
-
-# In[8]:
-
-
 class BackgroundFrameRead:
     """
     This class read frames from a VideoCapture in background. Then, just call backgroundFrameRead.frame to get the
@@ -320,58 +305,3 @@ class BackgroundFrameRead:
 
     def stop(self):
         self.stopped = True
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
